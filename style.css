@@ -1,0 +1,236 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-section {
+  max-width: 1770px;
+  width: 100%;
+  background-image: url(images/image\ main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#main-section h1 {
+  padding-top: 277px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 11px;
+}
+
+#main-section h3 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+#search {
+  width: 36%;
+  height: 63px;
+  border: 2px solid #FFF;
+}
+
+#search::placeholder {
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+
+form>button {
+  background-color: #5474FD;
+  color: #FFF;
+  width: 11%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Aleo', serif;
+  letter-spacing: 1.4px;
+  line-height: 26px;
+  text-transform: uppercase;
+  border: 2px solid #FFF;
+  font-size: 14px;
+}
+
+form>button img {
+  padding-left: 10px;
+}
+
+.scroll {
+  margin-top: 107px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 142px;
+}
+
+.scroll h6 {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFF;
+}
+
+.scroll img {
+  width: 17px;
+  height: 11px;
+}
+
+.main-section-footer {
+  background-color: #5474FD;
+  height: 83px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 10%;
+}
+
+.logo h2 {
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.nav {
+  width: 52%;
+  padding-right: 10%;
+}
+
+.nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a{
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: 'Aleo', serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.why-chose-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-image: url(images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.why-content {
+  padding-top: 212px;
+  padding-left: 10%;
+  width: 52%;
+}
+
+.why-content h2{
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+  line-height: 26px;
+  color: #FFF;
+  margin-bottom: 50px;
+}
+
+.why-content p {
+  font-size: 16px;
+  color: #FFF;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  margin-bottom: 45px;
+}
+
+.why-content button {
+  width: 208px;
+  height: 63px;
+  border: none;
+  background-color: #5474FD;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Aleo', serif;
+  letter-spacing: 1.2px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-size: 16px;
+
+}
+
+.why-photos {
+  padding-top: 118px;
+  width: 44%;
+  padding-right: 10%;
+  margin-bottom: 117px;
+}
+
+.mountain {
+  margin-left: 23%;
+}
+
+.why-footer {
+  background-color: #333333;
+  height: 300px;
+  padding-top: 116px;
+  padding-left: 10%;
+  padding-right: 9%;
+  background-image: url(images/line.svg);
+  background-repeat: no-repeat;
+  background-position: center 40px;
+}
+
+.why-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-places,
+.select-places,
+.book-enjoy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 17px;
+  border: #333333 20px solid;
+}
+
+.search-places  h4,
+.select-places  h4,
+.book-enjoy h4 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Aleo', serif;
+  color: #FFF;
+}
+
+
+
+
