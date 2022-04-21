@@ -1,0 +1,838 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-section {
+  max-width: 1770px;
+  width: 100%;
+  background-image: url(images/image\ main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-section h1 {
+  padding-top: 277px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #FFF;
+  margin-bottom: 11px;
+}
+
+.main-section h3 {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 6.82px;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#search {
+  width: 40%;
+  height: 63px;
+  border: 2px solid #FFF;
+}
+
+#search::placeholder {
+  text-align: center;
+  font-family: 'Josefin Sans';
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+
+form>button {
+  background-color: #5474FD;
+  color: #FFF;
+  width: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Aleo', serif;
+  letter-spacing: 1.4px;
+  line-height: 26px;
+  text-transform: uppercase;
+  border: 2px solid #FFF;
+  font-size: 14px;
+}
+
+form>button:hover {
+  box-shadow: #FFF 3px 3px 30px;
+}
+
+form>button img {
+  padding-left: 10px;
+}
+
+.scroll {
+  margin-top: 107px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 142px;
+}
+
+.scroll h6 {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #FFF;
+}
+
+.scroll img {
+  width: 17px;
+  height: 11px;
+}
+
+.main-section-footer {
+  background-color: #5474FD;
+  height: 83px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 10%;
+}
+
+.logo h2 {
+  font-size: 24px;
+  letter-spacing: 2.4px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.nav {
+  width: 52%;
+  padding-right: 10%;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  color: #FFF;
+  text-transform: uppercase;
+  font-family: 'Aleo', serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav li:hover {
+  border-bottom: #FFF 1px solid;
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.why-chose-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-image: url(images/background-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.why-content {
+  padding-top: 212px;
+  padding-left: 10%;
+  width: 52%;
+}
+
+.why-content h2 {
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+  line-height: 26px;
+  color: #FFF;
+  margin-bottom: 50px;
+}
+
+.why-content p {
+  font-size: 16px;
+  color: #FFF;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  margin-bottom: 45px;
+}
+
+.why-content button {
+  width: 208px;
+  height: 63px;
+  border: none;
+  background-color: #5474FD;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Aleo', serif;
+  letter-spacing: 1.2px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.why-content button:hover {
+  box-shadow: #FFF 3px 3px 20px;
+}
+
+.why-photos {
+  padding-top: 118px;
+  width: 44%;
+  padding-right: 10%;
+  margin-bottom: 117px;
+}
+
+.mountain {
+  margin-left: 23%;
+}
+
+.why-footer {
+  background-color: #333333;
+  height: 300px;
+  padding-top: 116px;
+  background-image: url(images/line.svg);
+  background-repeat: no-repeat;
+  background-position: center 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.why-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.search-places,
+.select-places,
+.book-enjoy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 17px;
+  border: #333333 20px solid;
+}
+
+.search-places h4,
+.select-places h4,
+.book-enjoy h4 {
+  font-size: 36px;
+  font-weight: 400;
+  font-family: 'Aleo', serif;
+  color: #FFF;
+}
+
+#spain {
+  background-image: url(images/backround-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 226px;
+  padding-bottom: 100px;
+  padding-left: 10%;
+}
+
+.spain-content {
+  padding: 50px 32px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: #232323;
+  opacity: 90%;
+}
+
+.spain-content h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFF;
+  letter-spacing: 1.5px;
+  margin-bottom: 23px;
+}
+
+.spain-content h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #FFF;
+  margin-bottom: 13px;
+}
+
+.spain-content p {
+  font-size: 16px;
+  color: #FFF;
+  margin-bottom: 46px;
+  line-height: 26px;
+}
+
+.spain-content button {
+  background-color: #5474FD;
+  width: 228px;
+  height: 63px;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Aleo', serif;
+  letter-spacing: 1.2px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-size: 16px;
+  border: none;
+}
+
+.spain-content button:hover {
+  box-shadow: #FFF 3px 3px 20px;
+}
+
+#spain-2 {
+  background-image: url(images/backround-4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 226px;
+  padding-bottom: 100px;
+  padding-right: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reviews {
+  background-image: url(images/background-5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reviews h2 {
+  padding-top: 128px;
+  text-align: center;
+  color: #FFF;
+  font-family: 'Aleo', serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 90px;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 200px;
+  width: 100%;
+}
+
+.review img {
+  max-width: 445px;
+  width: 30%;
+  max-height: 284px;
+}
+
+.review-content {
+  background-color: #333333;
+  padding: 3% 2% 3% 5%;
+  width: 50%;
+}
+
+.review-content h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #FFF;
+}
+
+.review-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFF;
+}
+
+.review-footer {
+  background-color: #232323;
+  height: 271px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-footer h2 {
+  padding-top: 122px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 3.38px;
+  color: #FFF;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.review-footer h3 {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1.6px;
+  color: #FFF;
+  margin-bottom: 16px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 166px;
+}
+
+.icons img:hover {
+  transform: scale(2);
+  transition: all .3s;
+}
+
+@media screen and (max-width:1300px) {
+  .why-icons {
+    width: 83%;
+  }
+}
+
+@media screen and (max-width:1260px) {
+  .why-icons {
+    width: 86%;
+  }
+}
+
+@media screen and (max-width:1220px) {
+  .why-icons {
+    width: 89%;
+  }
+}
+
+@media screen and (max-width:1180px) {
+  .why-icons {
+    width: 92%;
+  }
+}
+
+@media screen and (max-width:1140px) {
+  .why-icons {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .why-icons {
+    width: 98%;
+  }
+
+  .nav {
+    width: 56%;
+  }
+}
+
+@media screen and (max-width:1060px) {
+  .why-icons {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .nav {
+    width: 60%;
+  }
+
+  .why-photos {
+    width: 50%;
+  }
+
+  .why-icons {
+    transform: scale(0.9);
+  }
+
+  .why-footer {
+    padding-top: 94px;
+    background-size: 65%;
+  }
+}
+
+@media screen and (max-width:920px) {
+  .why-photos {
+    width: 60%;
+  }
+
+  .why-footer {
+    padding-top: 84px;
+    background-size: 60%;
+  }
+
+  .nav {
+    width: 65%;
+  }
+
+  .review-content p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .main-section-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .logo {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 0;
+  }
+
+  .nav {
+    padding-right: 0;
+    height: 50px;
+  }
+
+  .nav ul {
+    align-items: center;
+    gap: 12px;
+  }
+
+  #search {
+    width: 50%;
+  }
+
+  form>button {
+    width: 20%;
+  }
+
+  .why-chose-content {
+    flex-direction: column;
+  }
+
+  .why-content {
+    padding-top: 120px;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .why-photos {
+    padding-top: 60px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .sea {
+    margin-right: 30%;
+  }
+
+  .mountain {
+    margin-top: 10px;
+    margin-left: 30%;
+  }
+
+  .spain-content {
+    width: 65%;
+  }
+
+  .review {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review h2 {
+    padding-top: 100px;
+  }
+
+  .review img {
+    width: 54%;
+  }
+
+  .review-content {
+    width: 54%;
+  }
+}
+
+@media screen and (max-width:770px) {
+  .why-footer {
+    padding-top: 58px;
+    background-size: 60%;
+  }
+
+  .why-icons {
+    transform: scale(0.8);
+  }
+
+  .search-places h4,
+  .select-places h4,
+  .book-enjoy h4 {
+    font-size: 30px;
+  }
+
+  .nav {
+    width: 75%;
+  }
+
+}
+
+@media screen and (max-width:665px) {
+
+  .search-places h4,
+  .select-places h4,
+  .book-enjoy h4 {
+    font-size: 25px;
+  }
+
+  .why-footer {
+    padding-top: 48px;
+    background-size: 55%;
+  }
+
+  .review {
+    padding-bottom: 112px;
+  }
+
+  .review-footer {
+    height: 200px;
+  }
+
+  .review-footer h2 {
+    padding-top: 72px;
+  }
+
+  .nav {
+    width: 80%;
+  }
+
+  #search::placeholder {
+    font-size: 12px;
+  }
+
+  form>button {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:578px) {
+  .why-footer {
+    height: 240px;
+  }
+
+  .search-places h4,
+  .select-places h4,
+  .book-enjoy h4 {
+    font-size: 20px;
+  }
+
+  .sea {
+    margin-right: 20%;
+  }
+
+  .mountain {
+    margin-left: 20%;
+  }
+
+  .nav {
+    width: 85%;
+  }
+
+  #search {
+    width: 55%;
+  }
+
+  form>button {
+    width: 22%;
+  }
+}
+
+@media screen and (max-width:538px) {
+  .nav a {
+    font-size: 13px;
+  }
+
+  .nav {
+    width: 90%;
+  }
+
+  .why-footer {
+    height: 200px;
+    padding-top: 36px;
+  }
+
+  .why-icons {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width:490px) {
+  #search::placeholder {
+    font-size: 11px;
+  }
+
+  form>button {
+    font-size: 12px;
+  }
+
+  .main-section h1 {
+    font-size: 42px;
+  }
+
+  .main-section h3 {
+    font-size: 18px;
+  }
+
+  .logo h2 {
+    font-size: 20px;
+  }
+
+  .nav {
+    width: 95%;
+    height: 35px;
+  }
+
+  .nav a {
+    font-size: 12px;
+  }
+
+  #search {
+    width: 65%;
+  }
+
+  form>button {
+    width: 25%;
+  }
+
+  .sea {
+    margin-right: 10%;
+  }
+
+  .mountain {
+    margin-left: 10%;
+  }
+
+  .why-footer {
+    height: 180px;
+  }
+
+  .search-places h4,
+  .select-places h4,
+  .book-enjoy h4 {
+    font-size: 15px;
+  }
+
+  .review-footer {
+    height: 180px;
+  }
+
+  .review-footer h2 {
+    padding-top: 60px;
+  }
+
+  .review img {
+    width: 68%;
+  }
+
+  .review-content {
+    width: 68%;
+  }
+
+  .reviews h2 {
+    padding-top: 100px;
+  }
+
+  .spain-content {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width:420px) {
+  .nav a {
+    font-size: 11px;
+  }
+
+  .sea {
+    margin-right: 6%;
+  }
+
+  .mountain {
+    margin-left: 6%;
+  }
+
+  form>button {
+    width: 28%;
+  }
+}
+
+@media screen and (max-width:401px) {
+  .spain-content {
+    width: 88%;
+  }
+
+  .reviews h2 {
+    font-size: 32px;
+  }
+
+  .why-footer {
+    height: 160px;
+  }
+
+  .search-places h4,
+  .select-places h4,
+  .book-enjoy h4 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:382px) {
+  .nav a {
+    font-size: 10px;
+  }
+
+  #search::placeholder {
+    font-size: 10px;
+  }
+
+  .why-footer {
+    padding-top: 30px;
+    background-size: 50%;
+  }
+
+  .search-places h4,
+  .select-places h4,
+  .book-enjoy h4 {
+    font-size: 13px;
+  }
+
+  .mountain {
+    margin-left: 2%;
+  }
+
+  .sea {
+    margin-right: 2%;
+  }
+}
