@@ -807,3 +807,32 @@ form>button img {
     font-size: 14px;
   }
 }
+
+@media screen and (max-width:382px) {
+  .nav a {
+    font-size: 10px;
+  }
+
+  #search::placeholder {
+    font-size: 10px;
+  }
+
+  .why-footer {
+    padding-top: 30px;
+    background-size: 50%;
+  }
+
+  .search-places h4,
+  .select-places h4,
+  .book-enjoy h4 {
+    font-size: 13px;
+  }
+
+  .mountain {
+    margin-left: 2%;
+  }
+
+  .sea {
+    margin-right: 2%;
+  }
+}
